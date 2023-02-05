@@ -1,0 +1,195 @@
+.container{
+  flex-direction: column;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: top;
+  width: 100%;
+}
+
+.AppTitle{
+  width: 1200px;
+  
+}
+
+.button{
+  background:none;
+  border:none;
+  margin-top:30%;
+  padding:0;
+  cursor: pointer;
+	font-size:100%;
+	color:white;
+	text-align: center;
+}
+
+.button2{
+  background:none;
+  border:none;
+  margin-top:40%;
+  padding:0;
+  cursor: pointer;
+	font-size:100%;
+	color:white;
+	text-align: center;
+}
+
+.button3{
+  background:none;
+  border:none;
+  margin-top:40%;
+  padding:0;
+  cursor: pointer;
+	font-size:100%;
+	color:white;
+	text-align:start;
+  font-size: 80%;
+  white-space: nowrap;
+  
+}
+
+.AppRegister{
+  background-color: #283234;
+  height: 80px;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.AppLogin{
+  background-color: #283234;
+  height: 80px;
+  margin-top: 2%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.App-header {
+  
+  font-size: calc(30px + 2vmin);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-direction: row;
+  display: flex;
+}
+
+.Register-header {
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+.Login-header {
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+.show2 {
+  
+  display: block;
+  transition: 800ms;
+  height: 280px;
+
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.show2.active2{
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  
+}
+
+.show {
+  
+  display: block;
+  transition: 800ms;
+  height: 200px;
+
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.show.active{
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  
+}
+
+.bookList{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+
+
+.col{
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.row{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.image{
+  width: 200px;
+  height: 300px;
+  padding-right: 60px;
+  padding-left: 50px;
+}
+
+
+
+.LoginForm{
+  position:absolute;
+  padding-top: 100px;
+  left:-40%;
+  width:200px;
+  text-align: center;
+}
+
+.RegisterForm
+{
+  position:absolute;
+  padding-top: 100px;
+  right: 21%;
+  width:200px;
+  text-align: center;
+}
+
+.AddBookForm
+{
+  position:absolute;
+  padding-top: 100px;
+  right: 21%;
+  width:200px;
+  text-align: center;
+}
+
+.search-bar{
+  height: 5%;
+  position: absolute ;
+  right : 40%;
+  top: 8%;
+  z-index: 1;
+}
